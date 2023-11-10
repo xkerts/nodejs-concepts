@@ -3,33 +3,21 @@ const path = require("path");
 
 const fileOps = async () => {
   try {
-    const data = await fsPromises.readFile(
-      path.join(__dirname, "files", "starter.txt"),
-      "utf8"
-    );
+    const data = await fsPromises.readFile(path.join(__dirname, "files", "starter.txt"), "utf8");
     console.log(data);
 
     await fsPromises.unlink(path.join(__dirname, "files", "starter.txt"));
 
-    await fsPromises.writeFile(
-      path.join(__dirname, "files", "promiseWrite.txt"),
-      "Testing write"
-    );
+    await fsPromises.writeFile(path.join(__dirname, "files", "promiseWrite.txt"), "Testing write");
 
-    await fsPromises.appendFile(
-      path.join(__dirname, "files", "promiseWrite.txt"),
-      "\n\nTesting append"
-    );
+    await fsPromises.appendFile(path.join(__dirname, "files", "promiseWrite.txt"), "\n\nTesting append");
 
     await fsPromises.rename(
       path.join(__dirname, "files", "promiseWrite.txt"),
       path.join(__dirname, "files", "promiseComplete.txt")
     );
 
-    const newData = await fsPromises.readFile(
-      path.join(__dirname, "files", "promiseComplete.txt"),
-      "utf8"
-    );
+    const newData = await fsPromises.readFile(path.join(__dirname, "files", "promiseComplete.txt"), "utf8");
     console.log(newData);
   } catch (err) {
     console.error(err);
