@@ -1,0 +1,7 @@
+20231111	23:32:06	d7c484c3-024d-4116-acb3-d460aade9247	TypeError:fsPromises.readFil is not a function
+20231114	23:09:40	41539509-97c3-42ed-b70c-9614b37b14b5	Error: Not allowed by CORS
+20231114	23:42:00	81004f8e-17ee-47ad-82bb-ae7edb4f00c1	ReferenceError: employees is not defined
+20231114	23:42:39	df3e47bf-e5f7-4e6b-beb2-6a85704fc4a0	ReferenceError: employees is not defined
+20231114	23:43:52	51ee12c6-42a6-4226-a163-4baf8b905a05	ReferenceError: employees is not defined
+20231114	23:43:53	87c8c7e0-1961-45ab-acff-6749c294a512	ReferenceError: employees is not defined
+20231114	23:43:53	75768361-060d-43c3-a221-f4286120c11e	ReferenceError: employees is not defined
