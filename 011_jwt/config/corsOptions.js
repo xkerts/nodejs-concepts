@@ -1,4 +1,4 @@
-const whiteList = ["http://localhost:3500"];
+const whiteList = require("./whitelist");
 const corsOptions = {
   origin: (origin, callback) => {
     if (whiteList.indexOf(origin) !== -1 || !origin) {
