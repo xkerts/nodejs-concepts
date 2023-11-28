@@ -1,0 +1,18 @@
+[
+    {
+        "username": "kp",
+        "roles": {
+            "User": 2000
+        },
+        "password": "$2b$10$16q54T8cqDhfgBsfMzUGpOj7PH8tme9KsQioSP.Ev.FSCcNxlFbxa"
+    },
+    {
+        "username": "kerts",
+        "roles": {
+            "Admin": 5150,
+            "User": 2000
+        },
+        "password": "$2b$10$1yyHoj9vyEo9n7QCRr5VmevQLZQh/MyxyhUNZDw7zIaO/AFELXLUq",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtlcnRzIiwiaWF0IjoxNzAwNzA5MzUwLCJleHAiOjE3MDA3OTU3NTB9.fIsWnGHo40Yh4L8QPnpSwICqpUILIxyyLeTP8Sddd8I"
+    }
+]
